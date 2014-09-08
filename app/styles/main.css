@@ -1,0 +1,17 @@
+.ionic-logo {
+  display: block;
+  margin: 15px auto;
+  width: 96px;
+  height: 96px;
+}
+
+.scroll-content {
+  background: url(./../images/BG.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.item-complex {
+  background: transparent;
+}
