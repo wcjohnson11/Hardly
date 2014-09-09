@@ -6,9 +6,24 @@
 <ion-view title="Pet Information">
   <ion-content>
   <div class="row">
+    <div class="col">
+    <button class="button button-outline">MAP</button>
+    </div>
+    <div class="col">
+    <button class="button button-outline">FAQ</button>
+    </div>
+    <div class="col">
+    <button class="button button-outline">SORTBY</button>
+    </div>
+  </div>
+  <div class="row">_</div>
+  <div class="row">_</div>
+  <div class="row">_</div>
+  <div class="row">_</div>
+  <div class="row">
     <div class="col"></div>
     <div class="col col-90">
-    <ion-list>
+    <ion-list class="schedule">
 
       <ion-item class="item-icon-right" ng-repeat="pet in pets" type="item-text-wrap">
         <h3>{{pet.name}}</h3>

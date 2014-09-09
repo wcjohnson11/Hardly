@@ -16,6 +16,10 @@
   background-color: transparent;
 }
 
+.schedule {
+  padding-top: 20%
+}
+
 .stage {
-  text-align: right;
+  float: right;
 }
