@@ -12,6 +12,10 @@
   position: absolute;
 }
 
-.item-complex {
-  background: transparent;
+.item-icon-right {
+  background-color: transparent;
+}
+
+.stage {
+  text-align: right;
 }

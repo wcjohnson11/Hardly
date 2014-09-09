@@ -5,16 +5,20 @@
 -->
 <ion-view title="Pet Information">
   <ion-content>
-
+  <div class="row">
+    <div class="col"></div>
+    <div class="col col-90">
     <ion-list>
 
-      <ion-item class="item-icon-right" ng-repeat="pet in pets" type="item-text-wrap" href="#/tab/pet/{{pet.id}}">
-        <h3>{{pet.title}}</h3>
-        <p>{{pet.description}}</p>
+      <ion-item class="item-icon-right" ng-repeat="pet in pets" type="item-text-wrap">
+        <h3>{{pet.name}}</h3>
+        <p>{{pet.timeStart}} - {{pet.timeEnd}} <span class="stage">{{pet.stage}}</span></p>
         <i class="icon ion-chevron-right icon-accessory"></i>
       </ion-item>
       
     </ion-list>
-
+  </div>
+    <div class="col"></div>
+   </div>
   </ion-content>
 </ion-view>
